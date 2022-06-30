@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  /* outline: 1px solid red; */
+}
+
+/* background colors and font styling */
+
+.bg-black {
+  background-color: #020304 !important;
+}
+
+.bg-transparent {
+  background-color: transparent !important;
+}
+
+.bg-light-grey {
+  background-color: #f8f9fa !important;
+}
+
+.bg-dark-grey {
+  background-color: #f6f7fa !important;
+}
+
+.bg-lighter-grey {
+  background-color: #f5f7fa !important;
+}
+
+.fs-5 {
+  font-size: 0.875rem !important;
+}
+
+.fs-7 {
+  font-size: 0.75rem !important;
+}
+
+.text-grey {
+  color: #9a9a9a !important;
+}
+
+.fw-semi-bold {
+  font-weight: 500 !important;
+}
+
+.delivery-date {
+  font-size: 12px !important;
+}
+
+.product-select {
+  font-size: 1.5rem !important;
+}
+
+/* nav section */
+.nav-link {
+  color: #cccccc !important;
+  font-weight: 700 !important;
+  margin: 0.8rem !important;
+  font-size: 14px !important;
+}
+
+.nav-link:hover {
+  color: #6fdb8f !important;
+}
+
+.nav-login {
+  border: 2px solid #6fdb8f;
+}
+
+.design-category {
+  list-style-type: circle;
+}
+
+/* header */
+.header-content-box {
+  padding: 7rem 0;
+}
+
+.header-content-heading {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.header-content-paragraph {
+  font-size: 1rem;
+  font-weight: 300 !important;
+}
+
+.product-form {
+  background-color: #020304 !important;
+  border: 3px solid #6fdb8f !important;
+  border-radius: 10px;
+}
+
+.product-select {
+  background-image: url("../svg/down.svg") !important;
+  background-repeat: no-repeat !important;
+  border: none !important;
+  display: inline-block !important;
+}
+
+.green-hover:hover {
+  color: #6fdb8f !important;
+}
+
+.underline-hover:hover {
+  text-decoration: underline !important;
+}
+
+.content-heading {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.content-box {
+  padding: 5rem 0;
+}
+
+.product-img,
+.card-header {
+  overflow: hidden !important;
+}
+
+/* cards section */
+
+.card-img-top {
+  transition: all 0.5s ease-in-out !important;
+}
+.card-img-top:hover {
+  transform: scale(1.1) !important;
+}
+
+/* buttons */
+.btn-black {
+  color: #fff !important;
+  background-color: #020304 !important;
+  padding: 0.8rem 1.8rem !important;
+  border-radius: 5px !important;
+  font-size: 1rem !important;
+}
+
+.btn-accent {
+  color: #cccccc !important;
+  font-weight: 700 !important;
+  margin: 0.8rem !important;
+  font-size: 14px !important;
+  border: 2px solid #6fdb8f !important;
+  padding: 0.7rem 0.9rem !important;
+}
+
+.see-more {
+  transition: all 0.2s ease-in-out;
+}
+
+.see-more:hover {
+  margin-right: 0.4rem;
+}
+/* input,textarea,button,select section */
+
+input:active,
+input:focus,
+textarea:active,
+textarea:focus,
+button:active,
+button:focus,
+select:active,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* carousel */
+.carousel-item {
+  min-height: 50vh;
+  /* background: #777; */
+  color: #fff;
+  position: relative;
+}
+
+.carousel-indicators {
+  visibility: hidden !important;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("../svg/return-button.svg") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("../svg/next-button.svg") !important;
+}
+
+/* overflow Section */
+.row-scroller {
+  position: relative;
+}
+
+.row-scroller .row {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  overflow: auto;
+  white-space: wrap;
+  font-family: "Montserrat", sans-serif;
+}
+
+.border-accent {
+  border: 2px solid #6fdb8f !important;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+  display: none !important;
+}
+
+@media only screen and (max-width: 36em) {
+  .header-content-heading {
+    font-size: 2.5rem !important;
+  }
+  .product-select {
+    font-size: 0.875rem !important;
+  }
+  .service-heading {
+    font-size: 0.75rem !important;
+  }
+  .delivery-date {
+    font-size: 9px !important;
+  }
+
+  .client-content-heading {
+    font-size: 1.5rem !important;
+  }
+
+  .offcanvas-body {
+    position: relative;
+    border: none;
+    justify-content: start;
+    color: #020304 !important ;
+    width: 100% !important;
+  }
+
+  .design-category a {
+    font-size: 14px !important;
+  }
+}
